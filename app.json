@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "C-Eatery",
+    "slug": "C-Eatery",
+    "version": "1.0.2",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.mcshelton.Ceatery",
+      "versionCode":3
+    },
+    "web": {
+      "favicon": "./assets/icon.png"
+    },
+    "description": "Order food from hotel using this app"
+  }
+}
